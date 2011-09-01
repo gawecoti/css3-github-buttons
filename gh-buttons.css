@@ -308,6 +308,42 @@ http://github.com/necolas/css3-github-buttons
     background-image: linear-gradient(#36B330, #5FDC59);
 }
 
+/* ....................................................................................................... Green Solid */
+
+.button.green-solid {
+  border:1px solid #d4d4d4;
+  text-shadow:-1px -1px 0 rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #4a993e;
+  background-color: #36b725;
+  background-image: -moz-linear-gradient(top, #36b725, #298c1c); 
+  background-image: -ms-linear-gradient(top, #36b725, #298c1c); 
+  background-image: -o-linear-gradient(top, #36b725, #298c1c); 
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#36b725), to(#298c1c)); 
+  background-image: -webkit-linear-gradient(top, #36b725, #298c1c); 
+  background-image: linear-gradient(top, #36b725, #298c1c);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#36b725', EndColorStr='#298c1c');
+  font-weight: bold;
+  color: #fff;
+}
+
+.button.green-solid:hover {
+  border: 1px solid #468f3b;
+  background-color: #32ab22;
+  background-image: -moz-linear-gradient(top, #32ab22, #257d19); 
+  background-image: -ms-linear-gradient(top, #32ab22, #257d19); 
+  background-image: -o-linear-gradient(top, #32ab22, #257d19); 
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#32ab22), to(#257d19)); 
+  background-image: -webkit-linear-gradient(top, #32ab22, #257d19); 
+  background-image: linear-gradient(top, #32ab22, #257d19);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#32ab22', EndColorStr='#257d19');
+}
+
 /* ............................................................................................................. Pill */
 
 .button.pill {
