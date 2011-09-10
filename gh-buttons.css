@@ -281,7 +281,7 @@ http://github.com/necolas/css3-github-buttons
 /* ............................................................................................................. Green */
 
 .button.green {
-    color: #009900;
+    color: #187b0b;
 }
 
 .button.green:hover,
@@ -291,10 +291,10 @@ http://github.com/necolas/css3-github-buttons
     border-bottom-color: #30A02A;
     color: #fff; 
     background-color: #5FDC59;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5FDC59), to(#36B330));
-    background-image: -moz-linear-gradient(#5FDC59, #36B330);
-    background-image: -o-linear-gradient(#5FDC59, #36B330);
-    background-image: linear-gradient(#5FDC59, #36B330);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#36b725), to(#298c1c));
+    background-image: -moz-linear-gradient(#36b725, #298c1c);
+    background-image: -o-linear-gradient(#36b725, #298c1c);
+    background-image: linear-gradient(#36b725, #298c1c);
 }
 
 .button.green:active,
@@ -302,10 +302,10 @@ http://github.com/necolas/css3-github-buttons
     border-color: #30A02A;
     border-bottom-color: #3FB53A;
     background-color: #36B330;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#36B330), to(#5FDC59));
-    background-image: -moz-linear-gradient(#36B330, #5FDC59);
-    background-image: -o-linear-gradient(#36B330, #5FDC59);
-    background-image: linear-gradient(#36B330, #5FDC59);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#298c1c), to(#36b725));
+    background-image: -moz-linear-gradient(#298c1c, #36b725);
+    background-image: -o-linear-gradient(#298c1c, #36b725);
+    background-image: linear-gradient(#298c1c, #36b725);
 }
 
 /* ....................................................................................................... Green Solid */
@@ -342,6 +342,66 @@ http://github.com/necolas/css3-github-buttons
   background-image: -webkit-linear-gradient(top, #32ab22, #257d19); 
   background-image: linear-gradient(top, #32ab22, #257d19);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#32ab22', EndColorStr='#257d19');
+}
+
+.button.solid-green:active {
+  /*text-shadow:1px 1px 0 rgba(0, 0, 0, 0.3);*/
+  border: 1px solid #468f3b;
+  background-color: #32ab22;
+  background-image: -moz-linear-gradient(top, #257d19, #32ab22); 
+  background-image: -ms-linear-gradient(top, #257d19, #32ab22); 
+  background-image: -o-linear-gradient(top, #257d19, #32ab22); 
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#257d19), to(#32ab22)); 
+  background-image: -webkit-linear-gradient(top, #257d19, #32ab22); 
+  background-image: linear-gradient(top, #257d19, #32ab22);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#257d19', EndColorStr='#32ab22');
+}
+
+.button.solid-red {
+  text-shadow:-1px -1px 0 rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #BF4843;
+  background-color: #b33630;
+  background-image: -moz-linear-gradient(top, #ed6f6a, #c44741); 
+  background-image: -ms-linear-gradient(top, #ed6f6a, #c44741); 
+  background-image: -o-linear-gradient(top, #ed6f6a, #c44741); 
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ed6f6a), to(#c44741)); 
+  background-image: -webkit-linear-gradient(top, #ed6f6a, #c44741); 
+  background-image: linear-gradient(top, #ed6f6a, #c44741);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ed6f6a', EndColorStr='#c44741');
+  font-weight: bold;
+  color: #fff;
+}
+
+.button.solid-red:hover {
+  border: 1px solid #BF4843;
+  background-color: #b33630;
+  background-image: -moz-linear-gradient(top, #dc5f59, #b33630); 
+  background-image: -ms-linear-gradient(top, #dc5f59, #b33630); 
+  background-image: -o-linear-gradient(top, #dc5f59, #b33630); 
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#dc5f59), to(#b33630)); 
+  background-image: -webkit-linear-gradient(top, #dc5f59, #b33630); 
+  background-image: linear-gradient(top, #dc5f59, #b33630);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#dc5f59', EndColorStr='#b33630');
+  font-weight: bold;
+  color: #fff;
+}
+
+.button.solid-red:active {
+  border: 1px solid #BF4843;
+  background-color: #b33630;
+  background-image: -moz-linear-gradient(top, #b33630, #dc5f59); 
+  background-image: -ms-linear-gradient(top, #b33630, #dc5f59); 
+  background-image: -o-linear-gradient(top, #b33630, #dc5f59); 
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b33630), to(#dc5f59)); 
+  background-image: -webkit-linear-gradient(top, #b33630, #dc5f59); 
+  background-image: linear-gradient(top, #b33630, #dc5f59);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#b33630', EndColorStr='#dc5f59');
 }
 
 /* ............................................................................................................. Pill */
