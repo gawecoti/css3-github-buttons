@@ -410,6 +410,16 @@ http://github.com/todc/css3-github-buttons
   filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#b33630', EndColorStr='#dc5f59');
 }
 
+.button.disabled,
+.button.disabled:active,
+.button.disabled:hover {
+	color: #c4c4c4;
+	text-shadow: none;
+	border-color: #d4d4d4;
+	background-color: white;
+	background-image: none
+}
+
 /* ............................................................... Icon-only */
 
 .button.no-text:before {
